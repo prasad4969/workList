@@ -1,0 +1,84 @@
+body{
+    background-color:#ADD8E6
+}
+
+.container{
+    background-color:rgb(7,2,70);
+    justify-content:center;
+    width:50%;
+    margin-left:26%;
+    margin-top:5%;
+    text-align:center;
+    padding:20px; 
+}
+
+.header{
+    width:100%;
+    padding:12px 20px;
+    color:white;
+    font-size:50px;
+    font-family:'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
+}
+
+
+button{
+    width:12%;
+    background-color:green;
+    color:black;
+    padding:3px 20px;
+    margin:8px 2px;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+    font-weight:bold;
+}
+button:hover{
+    background-color:pink;
+}
+
+.list-heading{
+    color:rgb(15,14,14);
+    font-size:50px;
+    font-family:'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
+    text-align:left;
+    background-color:cadetblue;
+    width:68%;
+}
+
+.listData{
+    color:black;
+    font-size:20px;
+    background-color:rgb(164,203,237);
+    text-align:left;
+    padding-left:30px;
+    width:53%;
+   padding-bottom:2%;
+    padding-top:2%;
+    border-radius:10px;
+}
+
+.parshya{
+    color:red;
+}
+
+.removebtn{
+    width:18%;
+    height:45px;
+    background-color:red;
+    color:black;
+    padding:3px 20px;
+    margin:8px 1px;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+    font-weight:bold;
+}
+.removebtn:hover{
+    background-color:yellow;
+} 
+
+.btnposn{
+    position:relative;
+    left:18%;
+    top:-56px;
+}
